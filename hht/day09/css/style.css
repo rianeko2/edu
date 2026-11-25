@@ -40,6 +40,7 @@ a:focus-visible,
   max-width: var(--content-width);
   margin-inline: auto;
   padding: 1rem var(--space);
+  
 }
 
 .logo {
@@ -69,7 +70,9 @@ a:focus-visible,
   color: #fff;
   background:
     linear-gradient(90deg, rgb(0 0 0 / 72%), rgb(0 0 0 / 18%)),
-    linear-gradient(135deg, #3e7562, #b97a45);
+    url("../images/coffee.png.png");
+    background-size:cover;
+    background-position: center;
 }
 
 .hero__content {
@@ -80,7 +83,7 @@ a:focus-visible,
   max-width: 15ch;
   margin-block: 0.25em;
   font-size: clamp(2.25rem, 7vw, 5rem);
-  line-height: 1.05;
+  line-height:1.05;
 }
 
 .hero p {
